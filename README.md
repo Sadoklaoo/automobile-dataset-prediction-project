@@ -9,3 +9,13 @@ Model Evaluation using MAE and RMSE
 Hyperparameter Tuning for improving model performance
 Model Comparison and Results
 
+## Project Requirements
+
+- Python 3.x or higher
+- Libraries:
+  -  pandas
+  -  numpy
+  -  matplotlib
+  -  scikit-learn
+
+## Setup Instructions
