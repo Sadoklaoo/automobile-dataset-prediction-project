@@ -22,8 +22,10 @@ This project applies machine learning techniques to predict automobile-related o
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Sadoklaoo/itds-assessement
-cd itds-assessement
+git clone https://github.com/Sadoklaoo/automobile-dataset-prediction-project
+
+cd automobile-dataset-prediction-project
+
 ```
 2. Install dependencies
 ```bash
