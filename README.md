@@ -31,7 +31,8 @@ pip install pandas numpy matplotlib scikit-learn
 ```
 3. Download the dataset
 Download the dataset: Make sure the dataset automobile.csv is in the working directory. You can download the dataset from [automobile.csv](https://archive.ics.uci.edu/static/public/10/data.csv) and save it as csv file in the same repository.
-4. Run the Jupyter Notebook
+
+5. Run the Jupyter Notebook
 - Open the notebook in Jupyter or Jupyter Lab:
 ```bash
 jupyter notebook
@@ -98,7 +99,13 @@ grid_search.fit(X_train, y_train)
 print("Best Parameters:", grid_search.best_params_)
 ```
 
+## Output
+- Tables showing MAE and RMSE values for each model.
+- Bar plot comparing the MAE and RMSE of all models.
 
+## Additional Information
+- If you encounter issues with missing values or data discrepancies, ensure that your dataset is correctly formatted.
+- You can modify the model hyperparameters or try additional models to improve the results further.
 
 
 
