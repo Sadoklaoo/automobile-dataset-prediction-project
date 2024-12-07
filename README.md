@@ -23,7 +23,7 @@ This project applies machine learning techniques to predict automobile-related o
 1. Clone the repository
 ```bash
 git clone https://github.com/Sadoklaoo/itds-assessement
-cd
+cd itds-assessement
 ```
 2. Install dependencies
 ```bash
@@ -32,7 +32,7 @@ pip install pandas numpy matplotlib scikit-learn
 3. Download the dataset
 Download the dataset: Make sure the dataset automobile.csv is in the working directory. You can download the dataset from [automobile.csv](https://archive.ics.uci.edu/static/public/10/data.csv) and save it as csv file in the same repository.
 
-5. Run the Jupyter Notebook
+4. Run the Jupyter Notebook
 - Open the notebook in Jupyter or Jupyter Lab:
 ```bash
 jupyter notebook
@@ -61,7 +61,7 @@ jupyter notebook
 - Each model is evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) to compare their performance.
 
 5. Hyperparameter Tuning:
-- Random Forest and KNN models are tuned using GridSearchCV and RandomizedSearchCV to find the optimal hyperparameters.
+- KNN model is tuned using GridSearchCV to find the optimal hyperparameters.
 
 6. Results:
 - A bar plot is generated to visualize the MAE and RMSE of each model.
